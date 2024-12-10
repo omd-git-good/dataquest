@@ -1,6 +1,5 @@
 import streamlit as st
 import pandas as pd
-sklearn.externals import joblib
 
 # Load the trained model
 model = joblib.load('accident_severity_model.joblib')
